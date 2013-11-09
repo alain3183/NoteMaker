@@ -20,6 +20,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.notebookCover = @"NoteMaker Cover Sheet";
+    self.doneButton.hidden = YES;
+    self.notebookTextView.text = self.notebookCover;
 }
 
 - (void)didReceiveMemoryWarning

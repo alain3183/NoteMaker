@@ -13,4 +13,6 @@
 
 @interface ViewController : UIViewController
 
+@property(strong)NSString *notebookCover;
+
 @end
