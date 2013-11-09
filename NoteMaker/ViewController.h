@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Alain Malenfant. All rights reserved.
 //  GitHub Comment 1
 //  GitHub Comment 2
+//  GitHub Comment 3
 
 #import <UIKit/UIKit.h>
 
