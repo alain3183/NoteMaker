@@ -7,6 +7,7 @@
 //  GitHub Comment 1
 //  GitHub Comment 2
 //  GitHub Comment 3
+//  GitHub Comment 4
 
 #import <UIKit/UIKit.h>
 
