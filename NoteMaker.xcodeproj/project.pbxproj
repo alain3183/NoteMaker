@@ -460,6 +460,7 @@
 				B2755719182EA962009FB1EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B275571A182EA962009FB1EC /* Build configuration list for PBXNativeTarget "NoteMakerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				B275571C182EA962009FB1EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
