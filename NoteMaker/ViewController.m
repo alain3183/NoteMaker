@@ -11,6 +11,7 @@
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *doneButton;
 @property (weak, nonatomic) IBOutlet UITextView *notebookTextView;
+- (IBAction)doneButtonAction:(id)sender;
 
 @end
 
@@ -32,4 +33,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)doneButtonAction:(id)sender {
+    [self.notebookTextView resignFirstResponder];
+    self.doneButton.hidden = YES;
+}
 @end
