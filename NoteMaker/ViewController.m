@@ -33,6 +33,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)textViewDidBeginEditing:(UITextView *)textView{
+    self.doneButton.hidden = NO;
+}
+
+-(void)textViewDidEndEditing:(UITextView *)textView{
+    self.notebookCover = textView.text;
+    self.doneButton.hidden = YES;
+}
+
 - (IBAction)doneButtonAction:(id)sender {
     [self.notebookTextView resignFirstResponder];
     self.doneButton.hidden = YES;
